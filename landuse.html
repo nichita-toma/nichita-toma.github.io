@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Britta Ricker</title>
+		<title>Nichita's Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,7 +22,7 @@
 
 							<!-- Logo -->
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Britta Ricker</span>
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Nichita's Portfolio</span>
 								</a>
 
 							<!-- Nav -->
@@ -53,10 +53,24 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Lane Use Maps</h1>
+							<h1>Land Cover Maps</h1>
+							<h2>General Info:</h2>
+							<p>
+Land cover pertains to the different ways the Earth is covered, from forests to urban sprawls. This project is a general analysis of the different physical features that characterize Bucharest and its surroundings. The image of the city has been computed using Remote Sensing technology, which is based on a passive sensor (Sentinel 2) that encircles Earth as it captures electromagnetic energy from the sunlight that is being reflected from the ground up. 
+
+The different bands of electromagnetic energy that the satellite receives can be classified and transformed into visible light that the human eye can comprehend. Thus, classification can be done both manually and automatically and different results emerge. 
+</p>
+							<h1>Supervised object-based classification map</h1>
+							<p>Supervised classification implies that classification of types of land cover is manually created so it lets me choose the number and type of classes, making the map clearer and better suited to my project goals, though it's prone to human error in labelling.</p>
 							<span class="image main"><img src="images/Supervised_object_based_classification.png" alt="" /></span>
+							<h1>Unsupervised object-based classification map</h1>
+							<p> Unsupervised classification is faster as it is an automatic classification process, but the map will include all classes, which can clutter the image when only a few features matter.
+Overall, supervised classification better highlights key areas like vegetation and urban sprawl in Bucharest due to control over displayed categories. However, it struggles to distinguish between similar green areas for example between forest and cultivated land, possibly due to labelling or computational errors. Unsupervised maps make water and land hard to distinguish—likely because of surrounding vegetation—and show cities in overly fine detail, making them harder to interpret.
+</p>
 							<span class="image main"><img src="images/Unsupervised_object_based_classification.png" alt="" /></span>
 							<span class="image main"><img src="images/NDVI_new.png" alt="" /></span>
+							<h2>Skills acquired:</h2>
+							<p>Through this project, I learned how to upload a satellite image to ArcGIS Pro and how to change its band combination (the colour that corresponds to each features) in order to assess certain aspects of the landscape like vegetation health or urban sprawl. I also learned how to process the image with different types of classifications (supervised/unsupervised & object-based/pixel-based). </p>
 														<p>I made this map following a lab assignment. include relevant information from your assignment here.</p>
 						
 						</div>
